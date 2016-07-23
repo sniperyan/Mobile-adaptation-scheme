@@ -1,0 +1,248 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+ol,
+ul {
+  list-style: none;
+}
+input,
+img {
+  border: none;
+}
+body {
+  font-family: "微软雅黑";
+  background-color: #02053f;
+}
+.bg-grad {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background: url("../images/nonecp-4.jpg") no-repeat;
+  -webkit-background-size: 40rem 40rem;
+     -moz-background-size: 40rem;
+       -o-background-size: 40rem;
+          background-size: 40rem;
+}
+.bg-grad .header-pic {
+  width: 36.375rem;
+  height: 13.5rem;
+  margin-top: 1.875rem;
+}
+.bg-grad .tips1 {
+  font-size: 1.5rem;
+  color: #fddfbd;
+  margin-top: 4.875rem;
+}
+.bg-grad .tips2 {
+  font-size: 1.75rem;
+  color: #FFFFFF;
+  margin-top: 2rem;
+}
+.bg-grad .get-btn {
+  width: 28.125rem;
+  height: 9.3125rem;
+  margin-top: 3.875rem;
+}
+.bg-grad .logo-pic {
+  width: 40rem;
+  height: 3rem;
+  margin-top: 5.375rem;
+}
+.bg-grad .desc-pic {
+  width: 35.625rem;
+  height: 17.3125rem;
+}
+.bg-grad .share-text {
+  width: 30.9375rem;
+  height: 2.0625rem;
+  margin-left: 1.5rem;
+  margin-top: 4.75rem;
+}
+.bg-grad .coupon-detail {
+  width: 37.5rem;
+  height: 11.625rem;
+  margin: 2.625rem auto 0;
+  border: 1px solid #cfcfcf;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #FFFFFF;
+  position: relative;
+}
+.bg-grad .coupon-detail .cp-header {
+  width: 100%;
+  height: 0.3125rem;
+  background: #e71f1e url('../images/red-angle.png') 0 bottom repeat-x;
+}
+.bg-grad .coupon-detail .right-link {
+  width: 1.25rem;
+  height: 2.625rem;
+  background: url("../images/right_v.png") no-repeat;
+  -webkit-background-size: 100% 100%;
+     -moz-background-size: 100%;
+       -o-background-size: 100%;
+          background-size: 100%;
+  position: absolute;
+  top: 4rem;
+  right: 1.125rem;
+  opacity: 0.2;
+}
+.bg-grad .coupon-detail .bg-pic {
+  position: absolute;
+  top: 1.125rem;
+  left: 0.5625rem;
+}
+.bg-grad .coupon-detail .bg-pic img {
+  width: 9.25rem;
+  height: 9.25rem;
+}
+.bg-grad .coupon-detail .hr-line {
+  margin-top: 9rem;
+  height: 0.25rem;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAYAAACzzX7wAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpCRUE0QTU4RTRCOTkxMUU1OTU2Q0FFMEY3OTU0RTJDRCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpCRUE0QTU4RjRCOTkxMUU1OTU2Q0FFMEY3OTU0RTJDRCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkJFQTRBNThDNEI5OTExRTU5NTZDQUUwRjc5NTRFMkNEIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkJFQTRBNThENEI5OTExRTU5NTZDQUUwRjc5NTRFMkNEIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+KSLyIQAAACtJREFUeNpi/P//PwMMPHz4EMyRl5dnhIkxoUuis+EKcAG4AmRjkdkAAQYAvfEPBaKko5cAAAAASUVORK5CYII=) 0 top repeat-x;
+}
+.bg-grad .coupon-detail .cp-price {
+  height: 2.875rem;
+  text-indent: 5rem;
+  position: absolute;
+  top: 3.375rem;
+  left: 0rem;
+  color: #e71f21;
+}
+.bg-grad .coupon-detail .cp-price .price-sign {
+  font-size: 1.125rem;
+}
+.bg-grad .coupon-detail .cp-price .price-num {
+  font-size: 2.875rem;
+}
+.bg-grad .coupon-detail .cp-desc {
+  width: 16.5625rem;
+  height: 4.125rem;
+  position: absolute;
+  top: 2.625rem;
+  right: 3.25rem;
+  text-align: center;
+}
+.bg-grad .coupon-detail .cp-desc p {
+  height: 2.0625rem;
+  line-height: 2.0625rem;
+  font-size: 1.375rem;
+  color: #333333;
+}
+.bg-grad .coupon-detail .cp-time {
+  width: 23.25rem;
+  height: 2.0625rem;
+  line-height: 2.0625rem;
+  text-align: center;
+  color: #333333;
+  font-size: 1.125rem;
+  float: right;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=sharePage.css.map */
